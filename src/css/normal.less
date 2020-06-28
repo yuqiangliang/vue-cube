@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PingFangSC-Regular','PingFang SC','Microsoft Yahei';
+  }
+  body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  div, span, input,  textarea {
+    border-radius: 2px;
+  }
+  body {
+    background: #F5F5F5;
+  }
+  html {
+    overflow-y: scroll !important;
+  }
+  img {
+    -webkit-user-drag: none;
+  }
+  h3,p{margin:0}
+  li,ul,dl,dt,dd {
+    list-style: none;
+    margin:0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  .marginnone {
+    margin: 0 !important;
+  }
+  .btn {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  .btn.maL {
+    margin-left: 10px;
+  }
+  .btn.maL2 {
+    margin-left: 20px;
+  }
+  .btn.maR {
+    margin-right: 10px;
+  }
+  .btn.add {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+  }
+  .btn.search {
+    background: #023FA7;
+    border-color: #023FA7;
+    color: #fff;
+  }
+  .btn.success {
+    border-color: #023FA7;
+    color: #023FA7;
+    min-width: 60px;
+    width: auto;
+    padding: 0 10px;
+  }
+  .btn.padding12 {
+    padding: 0 12px;
+    width: auto;
+  }
+  .btn.borderRadio4 {
+    border-radius: 4px;
+  }
+  input, textarea {
+    -webkit-appearance: none;
+    outline: none;
+    background: transparent;
+    border-color: #ddd;
+  }
+  input:focus,textarea:focus, input:hover,textarea:hover {
+    border-color: #999 !important;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #999 !important;
+  }
+  textarea::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #999;
+  }
+.custom-form {
+  width: 100%;
+  font-size: 14px;
+}
+.custom-form .title {
+  color: #333;
+  font-weight: 600;
+  line-height: 20px;
+}
+.custom-form .form-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  min-height: 30px;
+}
+.custom-form .form-item.special {
+  align-items: normal;
+}
+.custom-form .form-item .label {
+   width: 76px;
+   text-align: left;
+   color: #333;
+   text-align: justify;
+}
+.custom-form .form-item .label.special {
+  width: 90px;
+}
+.custom-form .form-item .conts {
+  display: flex;
+  align-items: center;
+}
+.custom-form .form-item .conts  input {
+  padding-left: 10px;
+}
+.custom-form .form-item .conts  input, .custom-form .form-item .conts select{
+  border: 1px solid #ddd;
+  height: 30px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.custom-form .form-item .conts .warn {
+  font-size: 14px;
+  color: #999;
+  line-height: 20px;
+}
